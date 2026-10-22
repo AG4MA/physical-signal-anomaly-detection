@@ -1,0 +1,26 @@
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Build and execution outputs
+/target/
+/build/
+/dist/
+/runs/
+/checkpoints/
+
+# Large or unreviewed data and model files
+/data/raw/
+/data/private/
+/data/processed/
+/models/
+
+# Operating system files
+.DS_Store
+Thumbs.db
